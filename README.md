@@ -1,1 +1,40 @@
-# titanic-eda-prediction
+# Introduction
+RMS Titanic was a British passenger liner, operated by the White Star Line, that sank in the North Atlantic Ocean on 15 April 1912 after striking an iceberg during her maiden voyage from Southampton, England, to New York City, United States. Of the estimated 2,224 passengers and crew aboard, more than 1,500 died, making it the deadliest sinking of a single ship up to that time. It remains the deadliest peacetime sinking of an ocean liner or cruise ship.
+
+<font color = 'blue'>
+Content: 
+
+1. [Load and Check Data](#1)
+1. [Variable Description](#2)
+    * [Univariate Variable Analysis](#3)
+        * [Categorical Variable](#4)
+        * [Numerical Variable](#5)
+1. [Basic Data Analysis](#6)
+1. [Outlier Detection](#7)
+1. [Missing Value](#8)
+    * [Find Missing Value](#9)
+    * [Fill Missing Value](#10)
+1. [Visualization](#11)
+    * [Correlation Between Sibsp -- Parch -- Age -- Fare -- Survived](#12)
+    * [SibSp -- Survived](#13)
+    * [Parch -- Survived](#14)
+    * [Pclass -- Survived](#15)
+    * [Age -- Survived](#16)
+    * [Pclass -- Survived -- Age](#17)
+    * [Embarked -- Sex -- Pclass -- Survived](#18)
+    * [Embarked -- Sex -- Fare -- Survived](#19)
+    * [Fill Missing: Age Feature](#20)
+1. [Feature Engineering](#21)
+    * [Name -- Title](#22)
+    * [Family Size](#23)
+    * [Embarked](#24)
+    * [Ticket](#25)
+    * [Pclass](#26)
+    * [Sex](#27)
+    * [Drop Passenger ID and Cabin](#28)
+1. [Modeling](#29)
+    * [Train - Test Split](#30)
+    * [Simple Logistic Regression](#31)
+    * [Hyperparameter Tuning -- Grid Search -- Cross Validation](#32) 
+    * [Ensemble Modeling](#33)
+    * [Prediction and Submission](#34)
